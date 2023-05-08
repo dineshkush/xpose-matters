@@ -140,14 +140,14 @@ body, html, p {
 .search_bar_area {
 	padding-top: 32px;
 }
-.search_bar_area .input-group {
+.search_bar_area .search-group {
 	border: 1px solid #e2e2e2;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
-	padding: 5px 6px;
+	padding: 5px 6px 5px 12px;
 }
-.search_bar_area .input-group .form-control {
+.search_bar_area .search-group .form-control {
 	box-shadow: none !important;
 	border: none !important;
 	outline: none !important;
@@ -156,16 +156,18 @@ body, html, p {
 	font-size: 20px;
 	line-height: 25.14px;
 }
-.search_bar_area .input-group :not(.btn-check) + .btn:active {
+.search_bar_area .search-group :not(.btn-check) + .btn:active {
 	color: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
 }
-.search_bar_area .input-group .location_icon {
+.search_bar_area .search-group .location_icon {
 	margin-right: 10px;
 }
-
-.search_bar_area .input-group .search_btn {
+.search_bar_area .search-group .title {
+	width: 100%;
+}
+.search_bar_area .search-group .search_btn {
 	background-color: #032d5f;
 	padding: 10px 15px;
 	border-radius: 10px !important;
