@@ -492,7 +492,7 @@ footer {
 	box-shadow: none !important;
 	padding: 10px 10px;
 	border-radius: 5px;
-	box-shadow: none !important;
+	outline: none !important;
 }
 .search_filter .modal-footer .btn {
 	width: 100%;
