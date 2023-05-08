@@ -34,6 +34,11 @@ font-family: 'Work Sans', sans-serif; */
 body {
 	padding-bottom: 100px;
 }
+body, html, p {
+	color: #464646;
+	font-size: 14px;
+	font-family: Source Sans Pro,sans-serif;
+}
 
 
 
@@ -423,6 +428,79 @@ footer {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
+}
+.state_dropdown {
+	margin-bottom: 20px;
+}
+.city_dropdown {
+	margin-bottom: 20px;
+}
+.filter_dropdown i {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	font-size: 15px;
+	color: #464646;
+}
+.filter_dropdown .form-select {
+	padding: 10px 10px 10px 30px;
+	border-radius: 5px;
+	box-shadow: none !important;
+	border: 1px solid #e2e2e2 !important;
+}
+.filter_dropdown {
+	position: relative;
+}
+.categories_area {
+	margin-bottom: 20px;
+}
+.categories_area h4, .calender_area h4 {
+	color: #464646;
+	font-size: 14px;
+	font-weight: 600;
+}
+.categories_area .categories_list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.categories_area .category_item {
+	width: 30%;
+	text-align: center;
+	background-color: #f8f8f8;
+	color: #464646;
+	padding: 8px;
+	border-radius: 2px;
+	margin: 7px 0;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.categories_area .category_item .selected {
+	background-color: #009587;
+	color: #fff;
+}
+.calender_area .calender_field {
+	width: 100%;
+	border: 1px solid #e2e2e2 !important;
+	box-shadow: none !important;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+.search_filter .modal-footer .btn {
+	width: 100%;
+	flex: 0 0 48%;
+	margin: 0px 1%;
+}
+.search_filter .modal-footer .btn-primary {
+	background-color: #032d5f;
+}
+.search_filter .modal-footer .btn-primary:hover {
+	background-color: #022651;
 }
 
 
