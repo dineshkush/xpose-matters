@@ -456,7 +456,7 @@ footer {
 .categories_area {
 	margin-bottom: 20px;
 }
-.categories_area h4, .calender_area h4 {
+.categories_area h4, .calender_area h4, .contact_info h4, .signup_sm_area h4 {
 	color: #464646;
 	font-size: 14px;
 	font-weight: 600;
@@ -504,6 +504,60 @@ footer {
 }
 .search_filter .modal-footer .btn-primary:hover {
 	background-color: #022651;
+}
+.form_area {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.signup_area .heading_area {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 10px;
+}
+.contact_field .form-control, .signup_sm_area .form-control {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	box-shadow: none !important;
+	border: 1px solid #e2e2e2 !important;
+	margin-bottom: 15px;
+}
+.signup_dropdown {
+	position: relative;
+}
+.signup_dropdown .form-select {
+	padding: 10px 10px 10px 30px;
+	border-radius: 5px;
+	box-shadow: none !important;
+	border: 1px solid #e2e2e2 !important;
+}
+.signup_dropdown i {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	font-size: 15px;
+	color: #464646;
+}
+.contact_info {
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 20px;
+}
+.main_cat .category_item {
+	width: 49%;
+}
+.sub_cat_area {
+	margin-top: 20px;
+}
+.signup_area .categories_area {
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.signup_btn .btn {
+	background-color: #032d5f;
+	border: none;
+	margin-top: 20px;
+	padding: 8px 25px;
+	border-radius: 10px !important;
 }
 
 
