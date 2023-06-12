@@ -600,7 +600,7 @@ footer {
 .cover_photo .cover_change {
 	position: absolute;
 	top: 5px;
-	right: 5px;
+	right: 10px;
 	background-color: #fff;
 	border-radius: 30px;
 	width: 25px;
@@ -617,7 +617,7 @@ footer {
 }
 .profile_basic_info .change_details {
 	position: absolute;
-	right: 10px;
+	right: 15px;
 	top: 10px;
 }
 .profile_basic_info .change_details button {
@@ -724,7 +724,7 @@ footer {
 .profile_bio h3 .btn {
 	padding: 0px;
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	border: none;
 	background-color: transparent;
 	color: #032d5f;
@@ -749,7 +749,7 @@ footer {
 .profile_categories_area h3 .btn {
 	padding: 0px;
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	border: none;
 	background-color: transparent;
 	color: #032d5f;
@@ -790,7 +790,7 @@ footer {
 .profile_contact_area h3 .btn {
 	padding: 0px;
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	border: none;
 	background-color: transparent;
 	color: #032d5f;
