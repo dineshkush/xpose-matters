@@ -854,7 +854,7 @@ footer {
 	margin-left: 0;
 }
 .profile_bio .profile_sm li a {
-	text-decoration: navajowhite;
+	text-decoration: none;
 	background-color: #032d5f;
 	color: #fff;
 	padding: 5px 7px 5px 16px;
@@ -871,6 +871,26 @@ footer {
 	font-size: 10px;
 	border-radius: 50%;
 	margin-left: 5px;
+}
+.profile_share {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.profile_share button {
+	background-color: #032d5f !important;
+	border: none !important;
+	border-radius: 30px;
+	display: flex;
+	align-content: center;
+}
+.profile_share button::after {
+	display: none;
+}
+.profile_share button i {
+	font-size: 12px;
+	margin-right: 5px;
+	line-height: 22px;
 }
 
 
